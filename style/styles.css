@@ -1,0 +1,33 @@
+
+
+/* Navigation Bar */
+
+.navigation-bar {
+    list-style-type: none;
+    margin:0;
+    padding:1%;
+    background: grey;
+}
+
+.navigation-item {
+    display: inline-block;
+    width: auto;
+    background: rgba(10,10,10, 10);
+    padding: 2px;
+}
+
+
+.navigation-item a {
+    color: white;
+    text-decoration: none;
+    width: auto;
+}
+
+
+.navigation-item:hover {
+    background: lightgreen;
+}
+
+.navigation-item a:hover {
+    color:black;
+}

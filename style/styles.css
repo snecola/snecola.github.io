@@ -1,33 +1,31 @@
 
-
-/* Navigation Bar */
-
-.navigation-bar {
-    list-style-type: none;
-    margin:0;
-    padding:1%;
-    background: grey;
+.col {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: lightcoral;
+    margin: 5px;
+    min-height: 5rem;
 }
 
-.navigation-item {
-    display: inline-block;
-    width: auto;
-    background: rgba(10,10,10, 10);
-    padding: 2px;
+.link {
+    display: block;
+    position:relative;
+    top: 0;
+    left: 0;
+    bottom: auto;
+    right: auto;
+    color: black;
+
 }
 
-
-.navigation-item a {
-    color: white;
-    text-decoration: none;
-    width: auto;
+.col:hover {
+    border: 1px black;
 }
 
-
-.navigation-item:hover {
-    background: lightgreen;
+a {
+    color: black;
 }
 
-.navigation-item a:hover {
-    color:black;
+a:hover {
+    color: black;
 }

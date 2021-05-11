@@ -3,58 +3,135 @@
 <!-- To access: https://snecola.github.io -->
 
 <html lang="en">
-    <head>
-        <title>CS 355 HOMEPAGE</title>
-        <!--<link rel="stylesheet" href="style/styles.css">-->
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+    <title>CS 355 HOMEPAGE</title>
+    <!--<link rel="stylesheet" href="style/styles.css">-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!--Bootstrap-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="style/styles.css">
-    </head>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/styles.css">
+</head>
 
-    <body>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: lightgreen">
+            <a class="navbar-brand" href="#"><img src="images/steventag2.svg" alt="logo" width="300px" height="100px" class="img-fluid"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <h3>
+                        <a class="nav-link" href="#about">About</a>
+                        </h3>
+                    </li>
+                    <li class="nav-item">
+                        <h3><a class="nav-link" href="#">Experience</a></h3>
+                    </li>
+                    <li class="nav-item">
+                        <h3>
+                        <a class="nav-link" href="#">Projects</a>
+                        </h3>
+                    </li>
+                    <li class="nav-item">
+                        <h3>
+                        <a class="nav-link" href="#">Contact</a>
+                        </h3>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
         <div class="container-fluid">
             <div class="row">
-                <h1 class="">Steven Necola CS355 Dashboard</h1>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <a href="weatherapp/weatherapp.html" class="link">Weather App</a>
+                <div class="col-md-8 col-sm-12 section" id="about">
+                    <h2 class="section-heading">About</h2>
+                    <p>I'm a computer science student at Queens College passionate about furthering my career in Software Engineering. Currently I lead and organize an eSports community of over 300 people passionate about individual and team improvement. Doing so has been a monumental exercise in software development, scheduling consistency, and team organization. Every day I acquire new tools and work on new projects to raise the standard of work I can accomplish.</p>
                 </div>
-                <div class="col">
-                    <a href="typing-timer/index.html" class="link">Typing Timer</a>
-                </div>
-                <div class="col">
-                    <a href="css-portfolio" class="link">CSS Portfolio Follow Along</a>
-                </div>
-                <div class="col">
-                    <a href="analog-clock/index.html" class="link">Analog Clock</a>
+                <div class="col-md-4 col-sm-12">
+                    <img id="profilePic" class="img-fluid" src="images/ProfilePicture.JPG" alt="ProfilePicture" width="300" height="300">
                 </div>
             </div>
             <div class="row">
-                <div class="col">
-                    <a href="https://replit.com/@snecola/boilerplate-npm#package.json" class="link">Node.js Exercise Replit</a>
+                <div class="col section">
+                    <h2 class="section-heading" id="projects">
+                        Projects
+                    </h2>
+                    <table class="table">
+                        <tr>
+                            <th>Title</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td><a href="weatherapp/weatherapp.html" target="_blank">Weather App</a></td>
+                            <td>Uses browser location and Weather API service to display simple weather information.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="css-portfolio/index.html" target="_blank">Web Resume</a></td>
+                            <td>A web version of my resume as an exercise in CSS.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://replit.com/@snecola/ChatApp#index.js" target="_blank">Chat App</a></td>
+                            <td>An exercise guided by a LinkedIn Learning course on mongodb and express.js</td>
+                        </tr>
+                        <tr>
+                            <td><a href="typing-timer/index.html" target="_blank">Typing Test</a></td>
+                            <td>A interactive web mini-app that tracks how fast a user can type.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://github.com/snecola/backend-exercise" target="_blank">Shopper App</a></td>
+                            <td>Backend exercise using Node.js, Express.js, MySQL, Redis, and MongoDB to create a proto-type shopping app with user sessions and a saved cart.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://replit.com/@snecola/boilerplate-mongomongoose#README.md" target="_blank">MongoDB & Mongoose Exercise</a></td>
+                            <td>The Repl.it code of my mongodb exercise as provided by freeCodeCamp</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://qcfirst.snecola.repl.co/" target="_blank">QCFirst</a></td>
+                            <td>QCFirst Webapp for students and instructors to manage their courses and term schedules.
+                                <a href="https://github.com/snecola/qcfirst" target="_blank">Github Repo</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://replit.com/@snecola/boilerplate-project-timestamp#README.md" target="_blank">Timestamp Microservice</a></td>
+                            <td>Part of the freeCodeCamp Microservices & API Certification.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://replit.com/@snecola/boilerplate-project-urlshortener#README.md" target="_blank">URL Shortener</a></td>
+                            <td>Part of the freeCodeCamp Microservices & API Certification.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://replit.com/@snecola/boilerplate-project-headerparser" target="_blank">Header Parser Microservice</a></td>
+                            <td>Part of the freeCodeCamp Microservices & API Certification.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://replit.com/@snecola/boilerplate-project-exercisetracker#README.md" target="_blank">Exercise Tracker Microservice</a></td>
+                            <td>Part of the freeCodeCamp Microservices & API Certification.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://replit.com/@snecola/boilerplate-project-filemetadata#README.md" target="_blank">File Metadata Microservice</a></td>
+                            <td>Part of the freeCodeCamp Microservices & API Certification.</td>
+                        </tr>
+                    </table>
                 </div>
-                <div class="col">
-                    <a href="https://replit.com/@snecola/boilerplate-express#myApp.js" class="link">Express Exercise Replit</a>
-                </div>
-                <div class="col">
-                    <a href="https://snecola.github.io/qcfirst/" class="link">QCFIRST</a>
-                </div>
-                <div class="col">
+            </div>
 
-                </div>
-            </div>
         </div>
+    </main>
+    <footer>
 
-        <!--Bootstrap Scripts-->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </body>
+    </footer>
+
+<!--Bootstrap Scripts-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 
 
 

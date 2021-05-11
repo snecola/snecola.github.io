@@ -1,31 +1,41 @@
-
-.col {
-    border-radius: 20px;
-    padding: 10px;
-    background-color: lightcoral;
-    margin: 5px;
-    min-height: 5rem;
+:root {
+    background: #000500;
+    color:white;
 }
 
-.link {
-    display: block;
-    position: relative;
-    top: 0;
-    left: 0;
-    bottom: auto;
-    right: auto;
-    color: black;
+/*Profile picture*/
+#profilePic {
+    border-radius: 50%;
+    border: green 5px solid;
+    margin: 5%;
+    flex-wrap: wrap;
+}
+
+.section-heading {
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+body {
+    background: #000500;
+    color:white;
+}
+
+.heading {
+    margin-top: 2rem;
+}
+
+code {
+    color: lightgray;
+}
+
+#about {
 
 }
 
-.col:hover {
-    border: 1px black;
+th {
+    color:lightgray;
 }
-
-a {
-    color: black;
-}
-
-a:hover {
-    color: black;
+td {
+    color:lightgray;
 }

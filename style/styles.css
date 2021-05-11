@@ -39,3 +39,12 @@ th {
 td {
     color:lightgray;
 }
+
+.contactLinks {
+    list-style: none;
+}
+
+.contactLinks>li {
+    display: inline-block;
+    margin-right: 2rem;
+}
